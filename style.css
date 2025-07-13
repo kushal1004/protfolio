@@ -35,7 +35,7 @@ html{
 #header{
     width: 100%;
      height: 100vh; /*view height of screen height */
-     background-image: url('/images/pic.png');
+     background-image: url('pic.png');
      background-size:42% auto;
      background-position:right center;
      background-repeat: no-repeat;
