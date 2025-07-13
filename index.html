@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kushal Singha" />
+    <meta name="keyword" content="kushal singha,portfolio,web developer,software developer,coder" />
+    <meta name="description" content="personal portfolio" />
+    <title>protfolio | Kushal Singha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon-modified.png" type="favicon" style="height: 10%;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p class="t1">Frontend Developer</p>
+                <h1>Hi, i'm<br><span>Kushal Singha</span><br>From India</h1>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/kushal1004" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kushal-singha1004" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/kushal_singha10" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/kushal.singha.761490" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/kushal_singha_10" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://t.me/Kushal_Singha_0410" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+            <a href="/images/KUSHAL SINGHA_IT_2026.docx" download class="btn btn-2"> Download CV</a>
+        </div>
+    </div>
+
+    <!-- --------------------------About------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/imgg.avif" alt="my picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="font-size: 18px;">I'm Kushal Singtha <br>IT Engineering student currently pursuing my
+                        B.Tech degree from MCKV Institute of Engineering at Liluah, India.
+                        I am very passionate about improving my coding skills & developing websites.
+                        Working for myself to improve my skills.
+                        Love to read books, and I'm able to code at any time.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'Certificate')">Certificate</p>
+                        <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>JAVA</span><br>DSA</li>
+                            <li><span>Web Developer</span><br>Frontend Web Developer</li>
+                            <li><span>Database</span><br>SQL</li>
+                            <li><span>Programming</span><br>C,Python,Java</li>
+                            <li><span>Tools</span><br>Git,GitHub,VS Code</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="Certificate">
+                        <ul>
+                            <li><span>JAVA</span><br>GFG</li>
+                            <li><span>Web Developer</span><br>Internshala</li>
+                            <li><span>JavaScript</span><br>GFG</li>
+                            <li><span>Programming</span><br>Java Infosys</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="Education">
+                        <ul>
+                            <li><span>2022-current</span><br>B.Tech At MCKV Institute of Engineering</li>
+                            <li><span>2020-2022</span><br>Higher Secondry From Singur Mahamaya High School</li>
+                            <li><span>2014-2020</span><br>Secondary from jamaibati High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development is the process of building, designing, and maintaining websites using HTML, CSS,
+                        JavaScript, and backend tools.</p>
+                    <a href="#">Check More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>Java is a versatile, object-oriented programming language used for building robust, secure, and
+                        cross-platform applications.</p>
+                    <a href="#">Check More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                    <p>Java is a versatile, object-oriented programming language used for building robust, secure, and
+                        cross-platform applications.</p>
+                    <a href="#">Check More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------project--------- -->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/calculator.jpg">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/calculator.jpg">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/calculator.jpg">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#header" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope fa-flip"></i> Kushal@gmail.com</p>
+                    <p><i class="fa-solid fa-phone fa-bounce"></i> +91 9339440674</p><br>
+                    <h2>Join with me</h2><br>
+                    <div class="social-icons">
+                        <a href="https://github.com/kushal1004" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kushal-singha1004" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/kushal_singha10" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/kushal.singha.761490" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/kushal_singha_10" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/Kushal_Singha_0410" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                    <a href="/images/KUSHAL SINGHA_IT_2026.docx" download class="btn btn-2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="email-id" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; kushal. Made By <i class="fa-solid fa-heart fa-flip"></i> kushal</p>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
